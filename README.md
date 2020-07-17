@@ -23,7 +23,7 @@
 
 ### Exercícios Módulo 01 - Introdução JavaScript
 
-####1° Exercício :pencil:
+**1° Exercício :pencil:**
 
 Crie uma função que dado o objeto a seguir:
 
@@ -41,7 +41,7 @@ Retorne o seguinte conteúdo:
 
 `O usuário mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com nº 1293.`
 
-####2° Exercício :pencil:
+**2° Exercício :pencil:**
 
 Crie uma função que dado um intervalo (entre x e y) exiba todos número pares:
 
@@ -52,7 +52,7 @@ function pares(x, y) {
 pares(32, 321);
 ```
 
-####3° Exercício :pencil:
+**3° Exercício :pencil:**
 
 Escreva uma função que verifique se o vetor de habilidades passado possui a habilidade "Javascript"
 e retorna um booleano true/false caso exista ou não.
@@ -67,7 +67,7 @@ temHabilidade(skills); // true ou false
 
 _Dica: para verificar se um vetor contém um valor, utilize o método indexOf._
 
-####4º Exercício :pencil:
+**4º Exercício :pencil:**
 
 Escreva uma função que dado um total de anos de estudo retorna o quão experiente o usuário é:
 
@@ -83,7 +83,7 @@ experiencia(anosEstudo);
 // De 7 acima: Jedi Master
 ```
 
-####5° Exercício :pencil:
+**5° Exercício :pencil:**
 
 Dado o seguinte vetor de objetos:
 
