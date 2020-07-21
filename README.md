@@ -7,7 +7,7 @@
   JS Rocketseat Challenge Excercises :rocket: :astronaut:
 </h3>
 
-<p align="center">This project is just exercises of module one of Rocketseat Javascript course <a href="https://skylab.rocketseat.com.br/journey/starter">JavaScript Starter</a>
+<p align="center">This project is just exercises of module one of Rocketseat <a href="https://skylab.rocketseat.com.br/journey/starter">JavaScript Starter</a>
 </p>
 
 <p align="center">
