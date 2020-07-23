@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exercício 3</title>
+  </head>
+  <body>
+    <div id="app">
+      <ul></ul>
+    </div>
+
+    <script>
+
+      var names = [
+        "Diego",
+        "Gabriel",
+        "Lucas"
+      ];
+
+      function renderNames() {
+        for (name of names) {
+          var listElement = document.querySelector('ul');
+          var nameElement = document.createElement('li');
+          var nameText= document.createTextNode(name);
+
+          nameElement.appendChild(nameText);
+          listElement.appendChild(nameElement);
+        }
+      }
+
+      renderNames();
+
+    </script>
+  </body>
+</html>

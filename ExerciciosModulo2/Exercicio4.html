@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exercício 4</title>
+  </head>
+  <body>
+    <div id="app">
+      <ul></ul>
+      <input type="text" id="name">
+      <button>Adicionar</button>
+    </div>
+
+    <script>
+      var listElement = document.querySelector('#app ul');
+      var inputElement = document.querySelector('#app input');
+      var buttonElement = document.querySelector('#app button');
+      
+      var names = [
+        "Diego",
+        "Gabriel",
+        "Lucas"
+      ];
+
+      function renderNames() {
+        listElement.innerHTML = '';
+
+        for (name of names) {
+          var nameElement = document.createElement('li');
+          var nameText= document.createTextNode(name);
+
+          nameElement.appendChild(nameText);
+          listElement.appendChild(nameElement);
+        }
+      }
+
+      renderNames();
+
+      function addNames() {
+          var nameText = inputElement.value;
+
+          names.push(nameText);
+          inputElement.value = '';
+          renderNames();
+      }
+
+      buttonElement.onclick = addNames;
+
+    </script>
+  </body>
+</html>
