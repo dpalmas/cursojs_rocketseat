@@ -12,12 +12,12 @@
 
 <p align="center">
   
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/davipalmas/cursojs_rocketseat?color=0000FF">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/dpalmas/cursojs_rocketseat?color=0000FF">
 
-  <img alt="License" src="https://img.shields.io/github/license/davipalmas/cursojs_rocketseat?color=0000FF&logo=MIT">
+  <img alt="License" src="https://img.shields.io/github/license/dpalmas/cursojs_rocketseat?color=0000FF&logo=MIT">
   
-  <a href="https://github.com/davipalmas/cursojs_rocketseat/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/davipalmas/cursojs_rocketseat?color=0000FF">
+  <a href="https://github.com/dpalmas/cursojs_rocketseat/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dpalmas/cursojs_rocketseat?color=0000FF">
   </a>
 </p>
 
